@@ -9,6 +9,7 @@ public class Main {
     public static void task1 () {
         System.out.println("Задача 1");
         byte clientOS = 0;
+        
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (clientOS == 1) {
@@ -98,4 +99,4 @@ public class Main {
                 System.out.println("Такого месяца не существует");
         }
     }
-    }
+}
